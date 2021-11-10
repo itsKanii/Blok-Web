@@ -1,0 +1,267 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+  width: 100%;
+}
+ 
+.topnavigation {
+  border-bottom: black;
+  padding: 20px;
+  box-shadow: 0px 15px 10px -15px #111;
+  margin-bottom: 40px;
+}
+
+/* Hamburger Menu */
+#menuToggle {
+  display: block;
+  position: relative;
+  left: 40px;
+  z-index: 1;
+   
+  -webkit-user-select: none;
+  user-select: none;
+}
+ 
+#menuToggle a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+ }
+ 
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0;
+  z-index: 2; 
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+   
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+}
+ 
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+ 
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+ 
+#menuToggle input:checked ~ span {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #232323;
+}
+ 
+#menuToggle input:checked ~ span:nth-last-child(3) {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+}
+ 
+#menuToggle input:checked ~ span:nth-last-child(2) {
+   transform: rotate(-45deg) translate(0, -1px);
+}
+ 
+#menu {
+  position: absolute;
+  width: 100%;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+ 
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul {
+   transform: none;
+}
+
+
+/* Highlight sectie met scrollbar */
+.highlight-section {
+  margin: 0 auto;
+  max-width: 90%;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+
+.highlight-item {
+  flex: 0 0 auto;
+  color: white;
+  width: 100%;
+  max-width: 350px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.highlight-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.highlight-item-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background: rgba(66, 62, 116, 0.76);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* Spotlight sectie */
+
+.spotlight-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  padding-bottom: 100px;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-top: 40px;
+}
+
+.spotlight-item {
+  width: 100%;
+}
+
+.spotlight-item img {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  .spotlight-section {
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-bottom: 100px;
+  }
+}
+
+/* Recent News sectie */
+
+.recent-news-section {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 16;
+}
+
+@media (min-width: 750px) {
+  .recent-news-section {
+    grid-template-columns: 1fr 3fr;
+  }
+  .description-box {
+    grid-row-start: 2;
+  }
+}
+
+.description-box {
+  padding: 20px;
+}
+
+.news-caption-1 {
+  color: rgb(119, 1, 38);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  padding: 20px 15px 0px 15px;
+}
+
+.news-caption-2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  padding: 10px 15px 0px 15px;
+}
+
+.news-caption-3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 15px 20px 15px;
+}
+
+.recent-news-item {
+  display: block;
+  width: 100%;
+}
+
+.recent-news-item img {
+  object-fit: cover;
+  width: 100%;
+  /* max-width: 1000px; */
+}
+
+.disney-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  padding: 10px;
+  /* grid-gap: 20px; */
+  row-gap: 100px;
+  column-gap: 20px;
+  height: 400px;
+}
+
+@media (min-width: 750px) {
+  .disney-section {
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+.disney-item {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+
+}
+
+.disney-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.recent-news {
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
