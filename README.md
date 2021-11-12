@@ -200,8 +200,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Fixed Navigationbar - https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+2. Responsive Navigatiebar & Hamburger Menu - https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+3. Grid - https://cssgridgarden.com/#nl
+4. Figure & Figcaption - https://code-boxx.com/position-text-over-image-html/#sec-figure
 
 </details>
