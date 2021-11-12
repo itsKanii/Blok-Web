@@ -37,7 +37,7 @@ hier de naam van de pagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="![screencapture-nl-ign-jurassic-world-evolution-2-133225-promoted-dit-is-waarom-jij-jurrassic-world-evolution-2-zeker-moet-spelen-adv-2021-11-12-02_58_32](https://user-images.githubusercontent.com/90227957/141395863-a3e64193-c184-4949-9928-e02b4320616a.png)" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -76,21 +76,19 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 ### Agenda voor meeting
 samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+ 
+ - Focuspunten bespreken;
+   - voor en nadelen
+ - Website met elkaar vergelijken om te kijken of er overeenkomsten zijn;
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De helft van ons kiezen voor Responsivess en de andere helft focussen zich op de Surface Plane.
+- Huiswerk voor volgende week:
+   - Visuele elementen aankaarten op de website;
+   - Samenhangende elementen met elkaar groeperen;
 
 </details>
 
@@ -104,26 +102,28 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+- Html-bestand nakijken bij elkaar;
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+- Bevindingen uit onze huiswerk bespreken;
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Student 1
+ "Extra aandacht geven aan kleine microinteracties die verspreid staan over de website".
+
+Student 2
+ "Let op wanneer je flexbox en/of grid gebruikt bij verschillende onderdelen".
+
+Student 3
+ "Ik zou kijken naar gameforums en nieuwsartikel ter inspiratie en voorbeeld".
+
+Student 4
+ "Probeer zoveel mogelijk je website na te bouwen. Het "inspectie" knopje in je browser kan je daarbij helpen".
 
 </details>
 
@@ -133,34 +133,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Toegankelijkheidstest (week 4)
 
-<details>
-<summary>uitwerken na test in 8e voortgang</summary>
-
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ Ik was deze week niet aanwezig in de les.
 
 </details>
 
@@ -174,26 +147,24 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+De voornaamste onderdeel waar ik veel moeite bij heb is responsiveness zelf.
+Mijn grootste reden voor het kiezen van deze focuspunt is dat ik er beter in kan worden.
+
+ 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+ - html, css en javascript met elkaar vergelijken;
+ - Elkaar feedback geven op het gemaakte werk;
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+ "position: fixed" is een goeie optie voor het groeperen van visuele elementen op de website.
 
 </details>
 
@@ -207,7 +178,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+ Helaas is mijn gemaakte werk niet correct omdat ik "position: fixed" te veel heb gebruikt. Deze code creert namelijk veel ongelijkheid op verschillende schermen.
+ De onderdelen schalen namelijk niet correct mee omdat alles vast is gezet.
+ Mijn docent heeft duidelijk gemaakt om dit opdracht te herkansen, zodat ik op dit moment tijd kan vrijmaken voor een ander deadline.
 
 ### Screenshot(s)
 
