@@ -15,7 +15,9 @@ Beginner
 #### Je focus:
 Responsiveness
  
-</details>
+</details>!
+
+
 
 
 
@@ -27,11 +29,11 @@ Responsiveness
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+IGN Benelux, https://nl.ign.com.
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="[Uploading Schermafbeelding 2021-11-12 om 02.25.06.png…]()" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
